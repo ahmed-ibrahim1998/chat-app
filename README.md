@@ -2,6 +2,10 @@
 
 مرحبًا بك في هذا المشروع! هذا المشروع هو تطبيق ويب تم إنشاؤه باستخدام **Laravel 11** مع إضافة **Jetstream** لتوفير ميزات المصادقة وإدارة المستخدمين بسهولة. يستخدم المشروع **Livewire** كإطار عمل للواجهة الأمامية لتوفير تجربة تفاعلية دون الحاجة إلى JavaScript معقد.
 
+## Basic Demo
+Watch the explanatory video:  
+[![Video Preview](preview_image_link)](https://vimeo.com/1066385189)
+
 ## نظرة عامة
 - **الإصدار**: Laravel 11
 - **المصادقة**: Jetstream مع Livewire
