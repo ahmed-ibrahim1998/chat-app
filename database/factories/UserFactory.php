@@ -2,7 +2,7 @@
 
 namespace Database\Factories;
 
-use App\Models\Group;
+use App\Models\Team;
 use App\Models\User;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Support\Facades\Hash;
@@ -59,7 +59,7 @@ class UserFactory extends Factory
         }
 
         return $this->has(
-            Group::factory()
+            Team::factory()
                 ->state(fn (array $attributes, User $user) => [
                     'name' => $user->name.'\'s Team',
                     'user_id' => $user->id,
